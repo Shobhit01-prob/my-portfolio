@@ -103,7 +103,7 @@ const CERTIFICATES = [
     org: "IBM SkillsBuild",
     date: "Aug '26",
     verify: "https://www.credly.com/go/HWfX7dUQ",
-    image: "/certs/ibm-design-thinking.png"
+    image: "./certs/ibm-design-thinking.png"
   },
   {
     id: 2,
@@ -112,7 +112,7 @@ const CERTIFICATES = [
     date: "Aug '26",
     verify: "#",
     credentialId: "103478798OFAASOFA",
-    image: "/certs/oracle-fusion.png"
+    image: "./certs/oracle-fusion.png"
   },
   {
     id: 3,
@@ -120,7 +120,7 @@ const CERTIFICATES = [
     org: "Oracle",
     date: "Jun '26",
     verify: "#",
-    image: "/certs/oracle-data.png"
+    image: "./certs/oracle-data.png"
   },
   {
     id: 4,
@@ -128,7 +128,7 @@ const CERTIFICATES = [
     org: "Microsoft & Coursera",
     date: "Nov '23",
     verify: "https://coursera.org/verify/PAKVSS9C3HQT",
-    image: "/certs/microsoft-cybersecurity.png"
+    image: "./certs/microsoft-cybersecurity.png"
   },
   {
     id: 5,
@@ -136,7 +136,7 @@ const CERTIFICATES = [
     org: "EDUTECH HUB",
     date: "Oct '25",
     verify: "#",
-    image: "/certs/edutech.png"
+    image: "./certs/edutech.png"
   },
   {
     id: 6,
@@ -145,7 +145,7 @@ const CERTIFICATES = [
     date: "Oct '25",
     verify: "#",
     credentialId: "9289662",
-    image: "/certs/simplilearn-ml.png"
+    image: "./certs/simplilearn-ml.png"
   }
 ];
 
@@ -156,7 +156,7 @@ const PROJECTS = [
     tech: ["Arduino UNO", "Sensors", "C++"],
     link: "#",
     github: "#",
-    image: "/projects/adas.jpg"
+    image: "./projects/adas.jpg"
   },
   {
     title: "Ai-Powered Mental Health Companion",
@@ -164,7 +164,7 @@ const PROJECTS = [
     tech: ["HTML", "CSS", "Python", "JavaScript", "AI/ML"],
     link: "#",
     github: "#",
-    image: "/projects/mental-health.jpg"
+    image: "./projects/mental-health.jpg"
   },
   {
     title: "Unified Defense & Security Intelligence Platform",
@@ -172,7 +172,7 @@ const PROJECTS = [
     tech: ["Python", "AI/ML", "HTML", "CSS"],
     link: "#",
     github: "#",
-    image: "/projects/unified-defense.jpg"
+    image: "./projects/unified-defense.jpg"
   }
 ];
 
@@ -344,7 +344,7 @@ export default function Portfolio() {
             {/* Profile Image */}
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full p-1.5 bg-gradient-to-tr from-blue-600 to-purple-600 shadow-2xl">
               <img 
-                src="/profile.jpg" 
+                src="./profile.jpg" 
                 alt="Shobhit Kumar Rathour" 
                 className="w-full h-full object-cover rounded-full border-4 border-white dark:border-slate-950 bg-slate-100 dark:bg-slate-800"
               />
